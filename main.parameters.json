@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName":               { "value": "aks-tp-cluster" },
+    "location":                  { "value": "francecentral" },
+    "nodeVmSize":                { "value": "Standard_FX2mds_v2" },
+    "nodeCount":                 { "value": 1 },
+    "osDiskSizeGB":              { "value": 30 },
+    "logAnalyticsWorkspaceName": { "value": "law-aks-tp" },
+    "logAnalyticsSku":           { "value": "PerGB2018" },
+    "logRetentionDays":          { "value": 30 }
+  }
+}
